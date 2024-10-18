@@ -27,7 +27,6 @@
 你可以使用`pip`来安装所有需要的依赖：
 
 ```python
-bash
 
 复制代码
 pip install selenium aiohttp pillow openpyxl
@@ -40,7 +39,6 @@ pip install selenium aiohttp pillow openpyxl
 1. **准备网址文件**：首先，创建一个包含你要访问的网址的文本文件，每行一个网址，例如：
 
 ```python
-arduino
 
 复制代码
 https://example.com
@@ -52,7 +50,6 @@ https://anotherwebsite.com
 使用命令行运行脚本，并指定包含网址的文件路径。例如，假设网址文件为`urls.txt`：
 
 ```python
-bash
 
 复制代码
 python websites_data.py --urls urls.txt
@@ -63,8 +60,6 @@ python websites_data.py --urls urls.txt
 ## 项目结构
 
 ```python
-bash
-
 
 复制代码
 .
