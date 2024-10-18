@@ -55,7 +55,7 @@ https://anotherwebsite.com
 bash
 
 复制代码
-python script.py --urls urls.txt
+python websites_data.py --urls urls.txt
 ```
 
 1. **输出结果**：程序运行后，会生成一个名为`websites_data.xlsx`的Excel文件，其中包含每个网站的标题、状态码、截图和时间信息。
@@ -68,7 +68,7 @@ bash
 
 复制代码
 .
-├── script.py          # 主程序文件
+├── websites_data.py          # 主程序文件
 ├── urls.txt           # 包含网址的文本文件（示例）
 ├── websites_data.xlsx # 运行结果保存的Excel文件
 └── README.md          # 项目说明文件
