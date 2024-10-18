@@ -28,7 +28,6 @@
 
 ```python
 
-复制代码
 pip install selenium aiohttp pillow openpyxl
 ```
 
@@ -40,7 +39,6 @@ pip install selenium aiohttp pillow openpyxl
 
 ```python
 
-复制代码
 https://example.com
 https://anotherwebsite.com
 ```
@@ -51,7 +49,6 @@ https://anotherwebsite.com
 
 ```python
 
-复制代码
 python websites_data.py --urls urls.txt
 ```
 
@@ -61,7 +58,6 @@ python websites_data.py --urls urls.txt
 
 ```python
 
-复制代码
 .
 ├── websites_data.py          # 主程序文件
 ├── urls.txt           # 包含网址的文本文件（示例）
